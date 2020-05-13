@@ -1,0 +1,3 @@
+we have a file named note
+I am The note.txt file
+If the path is correct you will reach me
