@@ -11,6 +11,7 @@ public class FruitShop {
     public static void main(String[] args) {
         Apple a1 = new Apple("sweet", "red", "Fuji");
 
+
         System.out.println("a1.taste = " + a1.taste);
         System.out.println("a1.color = " + a1.color);
         System.out.println("a1.type = " + a1.type);
@@ -37,6 +38,8 @@ public class FruitShop {
         System.out.println(f1.toString());
 
         //FRUIT IS REFERENCE TYPE//APPLE IS ACTUAL OBJECT TYPE
+        Apple ap1=new Apple("soure","red","Golden");
+        System.out.println("ap1   "+ap1);
 
     }
 

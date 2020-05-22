@@ -9,10 +9,16 @@ public abstract class Fruit {
         this.color = color;
     }
 
+    public Fruit(){
+
+    }
+
+
    public abstract void getDigested();
 
     @Override
     public String toString() {
         return "HELLO FROM FRUIT";
     }
+
 }

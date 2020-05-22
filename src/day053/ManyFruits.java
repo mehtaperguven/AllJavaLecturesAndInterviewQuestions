@@ -10,6 +10,32 @@ public class ManyFruits {
         Fruit f2 = new Apple("sour", "green", "Golden");
         Fruit f3 = new Orange("Very sweet", "orange", 13);
         Fruit f4 = new Orange("Sour", "light orange", 10);
+        System.out.println("f1        "+f1);
+
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
+        Test t=new Test2();
+
+        t.saySomeThing();
+        Orange o=new Orange("abc","yellow",11);
+        Apple a11=new Apple("a","b","c");
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+        a11.getDigested();
+        o.getDigested();
+        f1.getDigested();
+        System.out.println("################");
+        f4.getDigested();
+        o.getDigested();
+        System.out.println("^^^^^^^^^^^^^^^^^^^^^^");
+        System.out.println("f1   >>>>>> "+f1);
+        System.out.println("f4   >>>>>>>"+f4);
+
+        System.out.println("........"+o.vcLevel);
+        System.out.println("............."+o.color);
+
+
+
+
+
 
         Fruit [] myFruits={f1,f2,f3,f4};
         System.out.println(Arrays.toString(myFruits));

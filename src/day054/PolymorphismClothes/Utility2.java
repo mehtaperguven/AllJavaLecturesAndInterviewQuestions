@@ -11,6 +11,7 @@ public class Utility2 {
         Wearable w3=new Makeup();
         Wearable w4=new Perfume();
 
+
         //List<Wearable>list=new ArrayList<>(Arrays.asList(w1,w2,w3,w4));
 
         List<Wearable> myList= Arrays.asList(w1,w2,w3,w4);

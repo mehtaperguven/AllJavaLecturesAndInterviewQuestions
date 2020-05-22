@@ -11,7 +11,7 @@ public class Orange extends Fruit {
 
     @Override
     public void getDigested() {
-        System.out.println(" Orange has "+color+" color and it's vitamin level "
+    System.out.println(" Orange has "+color+" color and it's vitamin level "
                 +vcLevel+ " it's taste is "+ taste);
     }
 
